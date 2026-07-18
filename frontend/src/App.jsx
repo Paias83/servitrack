@@ -411,6 +411,7 @@ function MainApp({ apiFetch, uploadFoto, usuario, onLogout }) {
         <div className="gm-brand">
           <Wrench size={18} />
           <span>ServiTrack</span>
+          <span className="gm-tagline">gestão de manutenções</span>
         </div>
         <div className="gm-header-right">
           {view !== "clientes" && (
